@@ -10,7 +10,7 @@ pw.py -h|--help
 pw.py -v|--version
 
 Options:
---copy automatically copy newly created password to the clipboard
+--copy  automatically copy newly created password to the clipboard
 -h --help  Show this screen.
 -v --version  Show version.
 """
