@@ -5,7 +5,7 @@ install with:
 	sudo apt install xsel
 
 Usage:
-pw.py --size=<sz> [--copy]
+pw.py [--size=<sz>] [--copy]
 pw.py -h|--help
 pw.py -v|--version
 
@@ -43,14 +43,14 @@ def paste(str):
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='pw 0.0.1a')
 
-    size = int(arguments.get('--size'))
+    size = arguments.get('--size')
     clip = arguments.get('--copy')
 
     if size is None:
         # default the password size if no length passed in
         size = 12
 
-    x = mkpassword(psize=size)
+    x = mkpassword(psize=int(size))
     print(x)
 
     if clip is True:
