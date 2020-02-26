@@ -5,7 +5,7 @@ install with:
 	sudo apt install xsel
 
 Usage:
-pw.py [--size=<sz>] [--copy]
+pw.py --size=<sz> [--copy]
 pw.py -h|--help
 pw.py -v|--version
 
