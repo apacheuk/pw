@@ -2,7 +2,7 @@
 
 Has a dependency on the app xsel being installed
 install with:
-	sudo apt install xsel
+    sudo apt install xsel
 
 Usage:
 pw.py [--size=<sz>] [--copy]
@@ -54,4 +54,4 @@ if __name__ == '__main__':
     print(x)
 
     if clip is True:
-    	paste(x)
+        paste(x)
