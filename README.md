@@ -1,5 +1,5 @@
 # pw
-python password generator
+basic password generator
 
 will create a random password, optional arguments include
 --size optional, pass in the length of the password, if not passed defaults to 12 characters
