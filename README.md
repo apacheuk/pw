@@ -1,5 +1,5 @@
 # pw
-##basic password generator written in Python
+## basic password generator written in Python
 
 will create a random password, optional arguments include
 --size optional, pass in the length of the password, if not passed defaults to 12 characters
